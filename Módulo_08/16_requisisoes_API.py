@@ -23,7 +23,7 @@ ceps = [
 
 dados = []
 
-from tqdm import tqdm # Demostra prograsso no terminal
+from tqdm import tqdm # Demonstra progresso no terminal
 
 for i in tqdm(ceps):
     resposta = requests.get(url.format(cep=i))
