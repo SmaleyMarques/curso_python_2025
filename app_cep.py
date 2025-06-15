@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import requests
 
+# para iniciar digite no terminal streamlit run app_cep.py
+
 url = "https://viacep.com.br/ws/{cep}/json/"
 
 st.title("Busca CEP")

@@ -34,5 +34,5 @@ dados
 
 # %%
 
-with open("ceps.json", "w", encoding="utf-8") as open_file:
+with open("data/ceps.json", "w", encoding="utf-8") as open_file:
     json.dump(dados, open_file, ensure_ascii=False, indent=4)
